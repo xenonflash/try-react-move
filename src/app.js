@@ -1,3 +1,7 @@
 import React, { Component } from 'react';
+import ReactDom from 'react-dom';
 
-export default (<h1>hello</h1>);
+let Hello = () => (<h1>hello world</h1>);
+
+
+ReactDom.render(<Hello/>, document.getElementById('app'));
